@@ -59,7 +59,7 @@ export default function Hero() {
               className="text-xl mb-8 max-w-md text-gray-300"
             >
               Transforming raw metal into precision components with
-              state-of-the-art CNC plasma cutting technology.
+              state-of-the-art CNC plasma cutting technology!
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
