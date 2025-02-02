@@ -1,13 +1,13 @@
+import type { Metadata } from "next"
+import { Space_Grotesk } from "next/font/google"
 import "./globals.css"
-import { Inter, Roboto_Mono } from "next/font/google"
-import Header from "@/components/header"
+import type React from "react" // Import React
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
-const robotoMono = Roboto_Mono({ subsets: ["latin"], variable: "--font-roboto-mono" })
+const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] })
 
-export const metadata = {
-  title: "PrecisionCut - CNC Plasma Cutting Specialists",
-  description: "Precision metal fabrication with state-of-the-art CNC plasma cutting technology",
+export const metadata: Metadata = {
+  title: "Precisie Plasmasnijden",
+  description: "Geavanceerde CNC plasmasnijdiensten voor uw metaalprojecten",
 }
 
 export default function RootLayout({
@@ -16,11 +16,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={`${inter.variable} ${robotoMono.variable} font-sans bg-black text-gray-100`}>
-        <Header />
-        {children}
-      </body>
+    <html lang="nl">
+      <body className={spaceGrotesk.className}>{children}</body>
     </html>
   )
 }
