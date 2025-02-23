@@ -1,13 +1,15 @@
-import type { Metadata } from "next"
-import { Space_Grotesk } from "next/font/google"
+import type React from "react"
 import "./globals.css"
-import type React from "react" // Import React
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+import Navigation from "@/components/Navigation"
+import Footer from "@/components/Footer"
 
-const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] })
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Precisie Plasmasnijden",
-  description: "Geavanceerde CNC plasmasnijdiensten voor uw metaalprojecten",
+  title: "MetalCraft Precision | Custom CNC Plasma Cutting",
+  description: "Precision metalwork and custom CNC plasma cutting services for all your design needs.",
 }
 
 export default function RootLayout({
@@ -16,8 +18,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="nl">
-      <body className={spaceGrotesk.className}>{children}</body>
+    <html lang="en">
+      <body className={`${inter.className} bg-charcoal text-gray-200`}>
+        <Navigation />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }
