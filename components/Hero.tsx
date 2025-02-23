@@ -1,6 +1,16 @@
+"use client";
+
 import { ArrowDownCircle } from "lucide-react";
 
 export default function Hero() {
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    e.preventDefault();
+    const element = document.querySelector(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div
@@ -25,6 +35,7 @@ export default function Hero() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="#services"
+            onClick={(e) => handleScroll(e, "#services")}
             className="inline-flex items-center px-8 py-3 text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700 transition-all duration-200 transform hover:scale-105"
           >
             Our Services
@@ -32,6 +43,7 @@ export default function Hero() {
           </a>
           <a
             href="#contact"
+            onClick={(e) => handleScroll(e, "#contact")}
             className="inline-flex items-center px-8 py-3 text-base font-medium rounded-md text-white border-2 border-white/20 hover:bg-white/10 transition-all duration-200"
           >
             Get Started
