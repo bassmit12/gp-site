@@ -3,27 +3,27 @@ import FadeIn from "./FadeIn";
 
 const galleryItems = [
   {
-    src: "/images/placeholder.png",
+    src: "/images/project1.jpg",
     alt: "Custom metal sign",
   },
   {
-    src: "/images/placeholder.png",
+    src: "/images/project2.jpg",
     alt: "Intricate metal artwork",
   },
   {
-    src: "/images/placeholder.png",
+    src: "/images/project3.jpg",
     alt: "Industrial metal component",
   },
   {
-    src: "/images/placeholder.png",
+    src: "/images/project1.jpg",
     alt: "Decorative metal panel",
   },
   {
-    src: "/images/placeholder.png",
+    src: "/images/project2.jpg",
     alt: "Precision-cut metal part",
   },
   {
-    src: "/images/placeholder.png",
+    src: "/images/project3.jpg",
     alt: "Artistic metal sculpture",
   },
 ];
