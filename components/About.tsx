@@ -1,4 +1,4 @@
-import { Sheet, Zap, Scale } from "lucide-react";
+import { Sheet, Scale } from "lucide-react";
 import Image from "next/image";
 import FadeIn from "./FadeIn";
 
