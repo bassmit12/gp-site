@@ -33,11 +33,11 @@ export default function Testimonials() {
         <FadeIn>
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              What Our Clients Say
+              Reviews
             </h2>
             <p className="mt-4 text-lg text-gray-400">
-              Don&apos;t just take our word for it - hear from some of our
-              satisfied clients
+              Neem niet alleen ons woord aan maar ook de reviews van voorgaande
+              klanten.
             </p>
           </div>
         </FadeIn>

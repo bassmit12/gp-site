@@ -9,11 +9,11 @@ export default function About() {
         <FadeIn>
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-              Crafting Excellence in Metal
+              Over ons
             </h2>
             <p className="mt-4 text-lg text-gray-400">
-              With over a decade of experience, we combine traditional
-              craftsmanship with cutting-edge technology
+              Met meer dan tien jaar ervaring combineren we traditioneel
+              handwerk met moderne technologie om elk idee te realiseren.
             </p>
           </div>
         </FadeIn>
@@ -30,27 +30,13 @@ export default function About() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-white mb-2">
-                      State-of-the-Art Equipment
+                      State-of-the-Art gereedscahp
                     </h3>
                     <p className="text-gray-400">
-                      Our advanced CNC plasma cutting machine delivers precision
-                      cuts with exceptional accuracy
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-md bg-red-600 text-white">
-                      <Zap className="w-6 h-6" />
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-semibold text-white mb-2">
-                      Rapid Turnaround
-                    </h3>
-                    <p className="text-gray-400">
-                      Quick project completion without compromising on quality
+                      Onze geadvanceerde CNC plasma cutting machine biedt
+                      precisie snijden met uitzonderlijke nauwkeurigheid. Deze
+                      machine maakt het mogelijk om complexe vormen en patronen
+                      te maken met hoge nauwkeurigheid en efficiëntie.
                     </p>
                   </div>
                 </div>
@@ -66,8 +52,9 @@ export default function About() {
                       Custom Solutions
                     </h3>
                     <p className="text-gray-400">
-                      From one-off pieces to large production runs, we scale to
-                      your needs
+                      Wij bieden verscheidene mogelijkheden aan naast
+                      metaalbewerking. Zo bieden wij ook 3D-printing aan voor
+                      plastic onderdelen.
                     </p>
                   </div>
                 </div>
@@ -91,11 +78,11 @@ export default function About() {
               <div className="absolute bottom-0 left-0 right-0 p-6">
                 <div className="bg-charcoal/80 backdrop-blur-sm rounded-lg p-6">
                   <p className="text-lg font-semibold text-white mb-2">
-                    Safety First, Quality Always
+                    Veiligheid eerst, kwaliteit gegarandeerd
                   </p>
                   <p className="text-gray-300">
-                    We maintain the highest standards of safety and precision in
-                    every project we undertake
+                    Wij hanteren de hoogste standaarden van veiligheid en
+                    kwaliteit in elke project waar we aan werken.
                   </p>
                 </div>
               </div>
